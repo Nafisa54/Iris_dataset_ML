@@ -6,7 +6,7 @@ import pickle
 
 # Load the trained model
 
-with open('C:/Users/NCC/Desktop/Machine_learning_SP/DSFP_AIML_WEEK_1&2/DSFP_AIML_WEEK_1&2/first_iris_model.pkl', 'rb') as file:
+with open('first_iris_model.pkl', 'rb') as file:
     model = pickle.load(file)
     
 # STREAMLIT UI
